@@ -1,10 +1,18 @@
 import java.util.Scanner;
+import java.io;
+import FileNotFoundException;
+
+
 
 public class GradeBook {
     private static Student[] students;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int numStudents = Integer.parseInt(fin.nextLine());
+        students = new Student[numStudents];
+
+        for(int i=0;
 
         students = new Student[] { new Student(), new Student() };
         students[0].setFirstName("Alan");
